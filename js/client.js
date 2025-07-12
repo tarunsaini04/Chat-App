@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000');
+const socket=io('https://chat-app-backend-ec8y.onrender.com');
 
 const form=document.getElementById('sendContainer');
 const massageInput=document.getElementById('messageInp');
